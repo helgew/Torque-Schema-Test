@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE database SYSTEM "http://db.apache.org/torque/dtd/database_3_2.dtd">
+<database name="mydb">
+
+  <table name="tbl1" idMethod="native">
+    <column name="tbl1_id" required="true" primaryKey="true" type="INTEGER"/>
+    <column name="name" required="true" size="64" type="VARCHAR" javaName="Name"/>
+
+    <unique>
+      <unique-column name="name"/>
+    </unique>
+
+  </table>
+</database>

@@ -1,0 +1,127 @@
+
+targetdatabase = mysql
+
+correctGetters = false
+
+             
+
+        
+        
+        
+        
+        
+        
+        
+        
+    BasePeers generated in package org.grajagan
+    BaseObjects generated in package org.grajagan
+    BaseManagers generated in package org.grajagan
+    BaseBeans generated in package org.grajagan.bean
+    Maps generated in package org.grajagan.map
+
+        Created dir: /Users/helgew/Desktop/tmp/tmp/target/generated-sources/torque/org/grajagan/
+
+        Failed to create dir or dir already exists: /Users/helgew/Desktop/tmp/tmp/target/generated-sources/torque/org/grajagan/
+
+        Created dir: /Users/helgew/Desktop/tmp/tmp/target/generated-sources/torque/org/grajagan/map/
+
+    
+    
+			
+		  	  	
+                  tbl1
+
+        
+        
+                
+
+                  
+        
+        
+                  
+        
+        
+          
+        
+        
+        
+        
+        
+        
+        
+        
+    BasePeers generated in package org.grajagan
+    BaseObjects generated in package org.grajagan
+    BaseManagers generated in package org.grajagan
+    BaseBeans generated in package org.grajagan.bean
+    Maps generated in package org.grajagan.map
+
+        Failed to create dir or dir already exists: /Users/helgew/Desktop/tmp/tmp/target/generated-sources/torque/org/grajagan/
+
+        Failed to create dir or dir already exists: /Users/helgew/Desktop/tmp/tmp/target/generated-sources/torque/org/grajagan/
+
+        Failed to create dir or dir already exists: /Users/helgew/Desktop/tmp/tmp/target/generated-sources/torque/org/grajagan/map/
+
+    
+    
+			
+		  		  	  		  	  		  	  		  	  	
+                            tbl2
+
+        
+        
+                
+
+                  
+        
+        
+                  
+        
+        
+                        tbl3
+
+        
+        
+                
+
+                  
+        
+        
+                  
+        
+        
+                        tbl_link_ext
+
+        
+        
+                
+
+                  
+        
+        
+                  
+        
+        
+                        tbl_link_int
+
+        
+        
+                
+
+                  
+        
+        
+                  
+        
+        
+          
+
+        
+        
+        
+
+;
+	    Created dir: /Users/helgew/Desktop/tmp/tmp/target/generated-sources/torque/org/apache/torque/linkage/
+	
+              
+    

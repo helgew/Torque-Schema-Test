@@ -1,0 +1,104 @@
+
+targetdatabase = mysql
+
+correctGetters = false
+
+             
+
+        
+        
+        
+        
+        
+        
+        
+        
+    Peers generated in package org.grajagan
+    Objects generated in package org.grajagan
+    Managers generated in package org.grajagan
+    Beans generated in package org.grajagan.bean
+
+        Created dir: /Users/helgew/Desktop/tmp/tmp/src/main/generated-java/org/grajagan/
+
+        Failed to create dir or dir already exists: /Users/helgew/Desktop/tmp/tmp/src/main/generated-java/org/grajagan/
+
+    
+    
+		  	  	
+                  tbl1
+
+        
+        
+        
+                          
+        
+                          
+        
+        
+        
+                  
+        
+        
+        
+        
+        
+        
+        
+        
+    Peers generated in package org.grajagan
+    Objects generated in package org.grajagan
+    Managers generated in package org.grajagan
+    Beans generated in package org.grajagan.bean
+
+        Failed to create dir or dir already exists: /Users/helgew/Desktop/tmp/tmp/src/main/generated-java/org/grajagan/
+
+        Failed to create dir or dir already exists: /Users/helgew/Desktop/tmp/tmp/src/main/generated-java/org/grajagan/
+
+    
+    
+		  		  	  		  	  		  	  		  	  	
+                            tbl2
+
+        
+        
+        
+                          
+        
+                          
+        
+        
+        
+                                tbl3
+
+        
+        
+        
+                          
+        
+                          
+        
+        
+        
+                                tbl_link_ext
+
+        
+        
+        
+                          
+        
+                          
+        
+        
+        
+                                tbl_link_int
+
+        
+        
+        
+                          
+        
+                          
+        
+        
+        
+                  

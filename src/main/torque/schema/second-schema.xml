@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE database SYSTEM "http://db.apache.org/torque/dtd/database_3_2.dtd">
+<database name="mydb">
+
+  <external-schema filename="first-schema.xml"/>
+
+  <table name="tbl2" idMethod="native">
+    <column name="tbl2_id" required="true" primaryKey="true" type="INTEGER"/>
+    <column name="name" required="true" size="64" type="VARCHAR" javaName="Name"/>
+
+    <unique>
+      <unique-column name="name"/>
+    </unique>
+
+  </table>
+
+  <table name="tbl3" idMethod="native">
+    <column name="tbl3_id" required="true" primaryKey="true" type="INTEGER"/>
+    <column name="name" required="true" size="64" type="VARCHAR" javaName="Name"/>
+
+    <unique>
+      <unique-column name="name"/>
+    </unique>
+
+  </table>
+
+  <table name="tbl_link_ext">
+    <column name="tbl1_id" required="true" type="INTEGER"/>
+    <column name="tbl2_id" required="true" type="INTEGER"/>
+
+	<foreign-key foreignTable="tbl1">
+		<reference local="tbl1_id" foreign="tbl1_id"/>
+	</foreign-key>
+
+	<foreign-key foreignTable="tbl2">
+		<reference local="tbl2_id" foreign="tbl2_id"/>
+	</foreign-key>
+  </table>
+
+  <table name="tbl_link_int">
+    <column name="tbl2_id" required="true" type="INTEGER"/>
+    <column name="tbl3_id" required="true" type="INTEGER"/>
+
+	<foreign-key foreignTable="tbl2">
+		<reference local="tbl2_id" foreign="tbl2_id"/>
+	</foreign-key>
+
+	<foreign-key foreignTable="tbl3">
+		<reference local="tbl3_id" foreign="tbl3_id"/>
+	</foreign-key>
+  </table>
+</database>
