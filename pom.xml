@@ -10,7 +10,8 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
   <name>Schema Test Project</name>
   <url>http://maven.apache.org</url>
   <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.build.sourceEncoding>
+    UTF-8</project.build.sourceEncoding>
   </properties>
   <dependencies>
     <dependency>
@@ -20,36 +21,36 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
       <scope>test</scope>
     </dependency>
   </dependencies>
-    <build>
-      <plugins>
-        <plugin>
-          <groupId>org.apache.db.torque</groupId>
-          <artifactId>torque-maven-plugin</artifactId>
-          <configuration>
-            <targetDatabase>mysql</targetDatabase>
-            <targetPackage>org.grajagan</targetPackage>
-            <driver>org.gjt.mm.mysql.Driver</driver>
-            <url>jdbc:mysql://localhost:3306/mydb</url>
-            <user>root</user>
-            <password></password>
-			<complexDataModel>true</complexDataModel>
-          </configuration>
-          <executions>
-            <execution>
-              <phase>generate-sources</phase>
-              <goals>
-                <goal>om</goal>
-              </goals>
-            </execution>
-          </executions>
-          <dependencies>
-            <dependency>
-              <artifactId>mysql-connector-java</artifactId>
-              <groupId>mysql</groupId>
-              <version>3.1.12</version>
-            </dependency>
-          </dependencies>
-        </plugin>
-      </plugins>
-    </build>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.db.torque</groupId>
+        <artifactId>torque-maven-plugin</artifactId>
+        <configuration>
+          <targetDatabase>mysql</targetDatabase>
+          <targetPackage>org.grajagan</targetPackage>
+          <driver>org.gjt.mm.mysql.Driver</driver>
+          <url>jdbc:mysql://localhost:3306/mydb</url>
+          <user>root</user>
+          <password></password>
+          <complexDataModel>true</complexDataModel>
+        </configuration>
+        <executions>
+          <execution>
+            <phase>generate-sources</phase>
+            <goals>
+              <goal>om</goal>
+            </goals>
+          </execution>
+        </executions>
+        <dependencies>
+          <dependency>
+            <artifactId>mysql-connector-java</artifactId>
+            <groupId>mysql</groupId>
+            <version>3.1.12</version>
+          </dependency>
+        </dependencies>
+      </plugin>
+    </plugins>
+  </build>
 </project>
